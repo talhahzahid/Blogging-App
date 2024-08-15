@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy/Sell Corner</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- navbar statred  -->
+  <div class="navbar bg-[#4c68ff]">
+    <div class="flex-1">
+      <a class="btn btn-ghost text-xl text-white" href="./index.html">Blogging App</a>
+    </div>
+  </div>
+  <!-- navbar ended  -->
+
+  <!-- register form statred -->
+  <h1 class="text-center mt-[2rem] text-2xl font-medium	">Sign Up</h1>
+  <div class="flex items-center justify-center">
+    <form id="form" class=" mt-[1rem] bg-[#FFF6F6] p-[40px] pt-[38px] pb-[35px] 
+      border-gray-300 w-[350px] border rounded-3xl">
+      <input type="text" placeholder="Enter your firstname" class="input input-bordered w-full max-w-xs" id="fname" />
+      <br>
+      <input type="text" placeholder="Enter your lastname" class="input input-bordered w-full max-w-xs mt-3"
+        id="lname" /> <br>
+      <input type="email" placeholder="Enter your email" class="input input-bordered w-full max-w-xs mt-3"
+        id="email" /> <br>
+      <input type="password" placeholder="Enter your password" class="input input-bordered w-full max-w-xs mt-3"
+        id="password" />
+      <br>
+      <div class="text-center mt-3">
+        <button class="btn btn-primary" type="submit">Register</button>
+      </div>
+      <div class="text-center mt-3">
+        <a href="./login.html" class="text-blue-500">Already a user?</a>
+      </div>
+    </form>
+  </div>
+  <!-- register form ended -->
+
+  <script type="module" src="./scripts/signup.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>

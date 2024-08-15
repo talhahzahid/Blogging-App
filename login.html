@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy/Sell Corner</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- navbar statred -->
+    <div class="navbar bg-[#4c68ff]">
+        <div class="flex-1">
+            <a class="btn btn-ghost text-xl text-white" href="./index.html">Buy / Sells Corner</a>
+        </div>
+    </div>
+    <!-- navbar ended -->
+
+    <!-- login started  -->
+    <div class="text-center mt-[2rem] text-2xl font-medium">Login</div>
+    <div class="flex items-center justify-center">
+        <form id="form" class=" mt-[1rem] bg-[#FFF6F6] p-[40px] pt-[38px] pb-[35px] 
+        border-gray-300 w-[350px] border rounded-3xl">
+            <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs" id="email" />
+            <br />
+            <input type="password" placeholder="Enter your password" class="input input-bordered mt-3 w-full max-w-xs"
+                id="password" />
+            <div class="text-center mt-3">
+                <button class="btn btn-primary" type="submit">Login</button>
+            </div>
+            <div class="text-center mt-3">
+                <a href="./signup.html" class="text-blue-500">Not  a user? Please register first</a>
+            </div>
+
+        </form>
+    </div>
+    <!-- login ended  -->
+
+    <script type="module" src="./scripts/login.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
